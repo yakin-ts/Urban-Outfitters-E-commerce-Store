@@ -1,0 +1,26 @@
+.list-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 416px;
+    min-width: 380px;
+    align-items: center;
+}
+
+.list-img {
+   
+}
+
+.list-detail {
+    display: flex;
+    flex-direction: column;
+    width: 180pxpx;
+    padding-left: 32px;
+    row-gap: 10px;
+    width: 70%;
+
+}
+
+.list-description {
+    width: 80%;
+}

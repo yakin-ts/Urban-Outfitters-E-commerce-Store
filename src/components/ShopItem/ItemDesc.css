@@ -1,0 +1,9 @@
+.itemdesc_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: left;
+}
+.itemdesc_wrapper * {
+    padding: 0px;
+}

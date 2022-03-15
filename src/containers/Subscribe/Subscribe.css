@@ -1,0 +1,37 @@
+.subscribe_container {
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    flex-direction: row;
+    align-items: center;
+}
+
+.subscribe_info {
+    flex: 1;
+    justify-content: flex-start;
+}
+
+
+
+
+.subscribe_form {
+    display: flex;
+    flex-direction: row;
+}
+
+.subscribe_form  {
+    height: 50px;
+    width: 600px;
+}
+.subscribe_form input {
+    width: 515px;
+}
+.subscribe_form button {
+    background-color: #323334;
+    width: 85px;
+}
+
+.subscribe_form button * {
+    padding: 2px;
+    z-index: 100;
+}

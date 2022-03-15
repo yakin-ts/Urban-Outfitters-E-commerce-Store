@@ -1,0 +1,124 @@
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #323334;
+    
+}
+
+.footer_body {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-between;
+    margin: 50px auto 0px;
+    padding: 50px 0px;
+    column-gap: 80px;
+
+}
+
+.footer_body  {
+    color: #fff;
+}
+.footer_company {
+    flex: 2;
+}
+
+
+
+.footer_company_info {
+    padding: 40px 1px;
+}
+
+.footer_company_contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.footer_company_social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_company_social a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_company_social a .icon {
+
+    width: 20px;
+}
+.footer_shopping {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 0;
+}
+
+.footer_more {
+    flex: 1;
+
+}
+
+.footer_more_links {
+    padding-top: 34px;
+
+}
+
+.footer_blog {
+    flex: 2;
+}
+
+.footer_blog_headline {
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer_blog_item1 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 33px;
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+    row-gap: 10px;
+}
+
+.footer_blog_item2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 33px;
+    row-gap: 10px;
+
+}
+
+.footer_blog_item_date .day {
+    font-size: 24px;
+    padding-right: 6px;
+    font-weight: 400;
+}
+
+.footer-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 34px;
+    row-gap: 16px;
+}
+
+.footer_copyright {
+    width: 100%;
+    background-color: #222;
+    margin: 0px auto;
+   
+}
+.footer_copyright .copyright_text {
+ margin: 18px auto;
+text-align: center;
+ color: #fff;
+}

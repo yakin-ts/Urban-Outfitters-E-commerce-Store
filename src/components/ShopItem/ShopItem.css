@@ -1,0 +1,23 @@
+.shopitem_container {
+    display :flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* column-gap: 15px; */
+    /* background-color: aqua; */
+    overflow: inherit;
+    
+}
+
+.shopitem {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 30px 0px;
+
+}
+
+.item_img img {
+    width: 306px;
+    height: 422px;
+    background-color: #EAE9E7;
+}
